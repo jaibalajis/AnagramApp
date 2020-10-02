@@ -8,8 +8,11 @@
 `pip install -r requirements.txt`
 
 ## Run
-### Run the application
+### Running the application
 `python app.py`
 
-### Run test cases
+### Runming the application with Gunicorn
+`gunicorn wsgi:app -b 0.0.0.0:5000`
+
+### Running test cases
 `pytest`

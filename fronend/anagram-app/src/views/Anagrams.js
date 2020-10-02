@@ -40,7 +40,7 @@ class Anagrams extends React.Component {
 
     checkAnagrams=()=>{
 
-        const url=process.env["REACT_APP_BACKEND_URL"]
+        const url=process.env["REACT_APP_BACKEND_URL"] || "http://localhost:5000/checkAnagram"
         const params = {
             word1: this.state.word1,
             word2: this.state.word2
@@ -83,7 +83,7 @@ class Anagrams extends React.Component {
                 <Grid container>
                     <Grid item sm={12}>
                         <Typography className={classes.heading} variant="h3" align="center">
-                            Anagram Check
+                            Anagram Checker
                         </Typography>
                     </Grid>
                 </Grid>
