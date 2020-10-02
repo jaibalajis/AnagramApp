@@ -1,6 +1,3 @@
-# ArcticWolfTakeHomeTest
-Take home test of Arctic Wolf
-
 # Anagram App
 
 ## Technologies
